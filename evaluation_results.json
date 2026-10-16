@@ -1,0 +1,222 @@
+[
+    {
+        "question": "** What are the generic procedure parameters used to ensure the UE is in state RRC_connected when switching off and on the UE according to TS 38.508-1 [14] clause 4.5?\n\n**",
+        "llm_without_rag": "Generic procedure parameters 1 and 2 are used to ensure the UE is in state RRC_connected when switching off and on the UE.",
+        "llm_with_rag": "Generic procedure parameters 1 and 2 are used to ensure the UE is in state RRC_connected when switching off and on the UE.",
+        "ground_truth": "** connectivity nr, connected without release on and test mode on",
+        "retrieved_ids": [
+            "2865482",
+            "2865688",
+            "2865931"
+        ]
+    },
+    {
+        "question": "If the length of the V2X service info contents field indicates a length bigger than indicated in Figure 5.4.1.11, what action should the receiving entity take?",
+        "llm_without_rag": "The receiving entity shall ignore the contents of the V2X service info contents field.",
+        "llm_with_rag": "The receiving entity shall not process the V2X service info contents field.",
+        "ground_truth": "The receiving entity shall ignore any superfluous octets located at the end of the V2X service info contents.",
+        "retrieved_ids": [
+            "2866077",
+            "2870061",
+            "2866168"
+        ]
+    },
+    {
+        "question": "What is the name of the attribute of the media level that contains the answer mode in the SDP?",
+        "llm_without_rag": "The attribute of the media level is called 'a=AS' and contains the answer mode.",
+        "llm_with_rag": "The attribute of the media level named 'a=mode' contains the answer mode.",
+        "ground_truth": "According to table A.315, the attribute name is \"answer\".",
+        "retrieved_ids": [
+            "2868706",
+            "2868578",
+            "2866251"
+        ]
+    },
+    {
+        "question": "What is the maximum number of simultaneous MCVideo group calls that can be supported?",
+        "llm_without_rag": "The maximum number of simultaneous MCVideo group calls is 10.",
+        "llm_with_rag": "The maximum number of simultaneous MCVideo group calls supported is 5.",
+        "ground_truth": "According to table A.2-1, the maximum number of simultaneous MCVideo group calls (NC4) is 20.",
+        "retrieved_ids": [
+            "2866494",
+            "2866627",
+            "2866626"
+        ]
+    },
+    {
+        "question": "What are the exact instants on which the values for cells at various time instants of the test execution shall be applied?",
+        "llm_without_rag": "The values for cells at various time instants of the test execution shall be applied at the exact instants T1, T2, T3, and T4.",
+        "llm_with_rag": "The values for cells at various time instants of the test execution shall be applied at the end of the corresponding time instant.",
+        "ground_truth": "The exact instants on which these values shall be applied are described in the texts in this clause.",
+        "retrieved_ids": [
+            "2866208",
+            "2867280",
+            "2866210"
+        ]
+    },
+    {
+        "question": "What is the maximum channel bandwidth for a system using 64 QAM modulation in NR Uu operation in a licensed band?",
+        "llm_without_rag": "The maximum channel bandwidth for 64 QAM modulation in NR Uu operation in a licensed band is 100 MHz.",
+        "llm_with_rag": "The maximum channel bandwidth for a system using 64 QAM modulation in NR Uu operation in a licensed band is 100 MHz.",
+        "ground_truth": "≤ 5.5 MHz",
+        "retrieved_ids": [
+            "2867363",
+            "2865674",
+            "2867381"
+        ]
+    },
+    {
+        "question": "What is the maximum value for the configured UE output power for e-UTRA bands ≤ 3GHz, except for band 41?",
+        "llm_without_rag": "23 dBm for e-UTRA bands ≤ 3GHz, except for band 41.",
+        "llm_with_rag": "23 dBm for e-UTRA bands ≤ 3GHz, except for band 41.",
+        "ground_truth": "6.2.5A.1_3.5-1: PCmax configured UE output power, e-UTRA bands ≤ 3GHz except for band 41.",
+        "retrieved_ids": [
+            "2867363",
+            "2866630",
+            "2867300"
+        ]
+    },
+    {
+        "question": "What is the HTTP method used for the request of a Message Gateway (on behalf of Legacy 3GPP UE or Non-3GPP UE) to deliver a status report to a given MSGin5G Server?",
+        "llm_without_rag": "HTTP POST method is used to request the delivery of a status report to a given MSGin5G Server.",
+        "llm_with_rag": "HTTP POST method is used for the request of a Message Gateway (on behalf of Legacy 3GPP UE or Non-3GPP UE) to deliver a status report to a given MSGin5G Server.",
+        "ground_truth": "The HTTP method used for the request of a Message Gateway (on behalf of Legacy 3GPP UE or Non-3GPP UE) to deliver a status report to a given MSGin5G Server is POST.",
+        "retrieved_ids": [
+            "2866176",
+            "2865669",
+            "2866853"
+        ]
+    },
+    {
+        "question": "What clause specifies the details of usage of the Ppinserver_ASServiceSwitch_Unsubscribe operation?",
+        "llm_without_rag": "Clause 5.2.2.2 specifies the details of usage of the Ppinserver_ASServiceSwitch_Unsubscribe operation.",
+        "llm_with_rag": "Clause 4.10.2.2 specifies the details of usage of the Ppinserver_ASServiceSwitch_Unsubscribe operation.",
+        "ground_truth": "See clause 8.7.2.1.4.2.4.",
+        "retrieved_ids": [
+            "2865209",
+            "2865948",
+            "2870083"
+        ]
+    },
+    {
+        "question": "** What is the parameter that shall be set according to T1 in this test procedure?\n\n**",
+        "llm_without_rag": "The parameter T1 shall be set to 2 seconds.",
+        "llm_with_rag": "The Operator signal threshold per access technology shall be set according to T1.",
+        "ground_truth": "** According to the excerpt, the parameters that shall be set according to T1 are specified in Table 10.4.1.1.5-1.",
+        "retrieved_ids": [
+            "2869184",
+            "2865745",
+            "2865424"
+        ]
+    },
+    {
+        "question": "What is the result of the test specified in the table for the case where the PLMN is \"6.1\", the Rel-8 is \"r\", the UE category is \"pc\" and the frequency band is \"utra\"?",
+        "llm_without_rag": "The UE passes the test.",
+        "llm_with_rag": "The UE is not configured for delay tolerant service.",
+        "ground_truth": "The result of the test is \"shall be executed\".",
+        "retrieved_ids": [
+            "2867337",
+            "2865200",
+            "2866890"
+        ]
+    },
+    {
+        "question": "** When an FRMCS Equipment in Off-Network mode is simultaneously used by multiple FRMCS Users, what is the requirement for addressing these Users?\n\n**",
+        "llm_without_rag": "The FRMCS Equipment shall be able to address each FRMCS User individually.",
+        "llm_with_rag": "Each FRMCS User shall be individually addressable.",
+        "ground_truth": "** Each of the FRMCS Users shall be individually addressable. (PR 5.4.6.1-7)",
+        "retrieved_ids": [
+            "2869903",
+            "2869904",
+            "2869988"
+        ]
+    },
+    {
+        "question": "What is the value of the \"threshx-high\" field for cell 1 in Table 6.2.3.31.3.3?",
+        "llm_without_rag": "The \"threshx-high\" field for cell 1 is 0.",
+        "llm_with_rag": "-85 dBm",
+        "ground_truth": "The value of the \"threshx-high\" field for cell 1 in Table 6.2.3.31.3.3 is 5 (10 dB).",
+        "retrieved_ids": [
+            "2870081",
+            "2865801",
+            "2865234"
+        ]
+    },
+    {
+        "question": "What is the reference standard for the data type \"SatelliteBachaulCategory\"?",
+        "llm_without_rag": "The reference standard for SatelliteBachaulCategory is 3GPP TS 38.331.",
+        "llm_with_rag": "The data type \"SatelliteBachaulCategory\" is defined in table 7.1-1 of the 3GPP TS 23.501 document.",
+        "ground_truth": "The reference standard for the data type \"SatelliteBachaulCategory\" is 3GPP TS 29.571 [12].",
+        "retrieved_ids": [
+            "2868260",
+            "2866926",
+            "2868381"
+        ]
+    },
+    {
+        "question": "What protocol as specified in an IETF RFC is to be used as the basis for the ELP Message Transport protocol?",
+        "llm_without_rag": "The IETF RFC 6455 [5] specifies the IETF RFC 6455 [5] as the basis for the ELP Message Transport protocol.",
+        "llm_with_rag": "The Diameter protocol as specified in IETF RFC 6749.",
+        "ground_truth": "The Diameter base protocol as specified in IETF RFC 6733 [23].",
+        "retrieved_ids": [
+            "2870066",
+            "2870067",
+            "2870071"
+        ]
+    },
+    {
+        "question": "What is the value of P<sub>CMAX_L,f,c</sub> (dBm) for Power Class 3 (almost contiguous allocation) in Band n28?",
+        "llm_without_rag": "-3 dBm",
+        "llm_with_rag": "-85 dBm",
+        "ground_truth": "The value of P<sub>CMAX_L,f,c</sub> (dBm) for Power Class 3 (almost contiguous allocation) in Band n28 is 23.",
+        "retrieved_ids": [
+            "2869044",
+            "2865193",
+            "2869045"
+        ]
+    },
+    {
+        "question": "What is the minimum performance for the PDSCH when the reference channel is \"A1\" and the UE category is \"2\"?",
+        "llm_without_rag": "-3 dB",
+        "llm_with_rag": "The minimum performance for the PDSCH when the reference channel is \"A1\" and the UE category is \"2\" is 1.5 dB.",
+        "ground_truth": "According to Table 8.10.1.2.12-2, the minimum performance for the PDSCH when the reference channel is \"A1\" and the UE category is \"2\" is not explicitly specified.",
+        "retrieved_ids": [
+            "2868400",
+            "2865457",
+            "2867338"
+        ]
+    },
+    {
+        "question": "What is the value of the \"set to 0\" parameter in the \"CS/PS mode 1 of operation\" procedure?",
+        "llm_without_rag": "The \"set to 0\" parameter is set to 0.",
+        "llm_with_rag": "The \"set to 0\" parameter is set to 0.",
+        "ground_truth": "The excerpt explicitly states that \"set to 0\" is the value of the parameter.",
+        "retrieved_ids": [
+            "2865589",
+            "2865890",
+            "2865424"
+        ]
+    },
+    {
+        "question": "What is the data type of the \"nfs\" parameter in the URI query parameters supported by the GET method on data?",
+        "llm_without_rag": "NfsInfo (mandatory, cardinality 1) containing the NF profile information.",
+        "llm_with_rag": "String data type with optional (O) presence, used to identify the NF service instance.",
+        "ground_truth": "The data type of the \"nfs\" parameter is a list.",
+        "retrieved_ids": [
+            "2866077",
+            "2866168",
+            "2866169"
+        ]
+    },
+    {
+        "question": "** What is the condition for security establishment between UE-2 and the selected 5G ProSe UE-to-UE relay?\n\n**",
+        "llm_without_rag": "Security establishment is conditional on the UE-to-UE relay being in the same ProSe group as UE-2.",
+        "llm_with_rag": "Security shall be established between UE-2 and the selected 5G ProSe UE-to-UE relay if the relay is authorized to relay traffic.",
+        "ground_truth": "** Security establishment happens between UE-2 and the selected 5G ProSe UE-to-UE relay (here relay-1), if needed. (Point 4)",
+        "retrieved_ids": [
+            "2867225",
+            "2866687",
+            "2867226"
+        ]
+    }
+]
